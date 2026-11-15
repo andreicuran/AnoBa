@@ -125,8 +125,8 @@ nav a {
 }
 .about:hover {
     transform: scale(1.04);
-    box-shadow: 0 0 15px hotpink,
-                0 0 25px hotpink,
+    box-shadow: 0 0 15px blue,
+                0 0 25px blue,
                 0 0 40px blue;
     background: hotpink;
 }
@@ -192,8 +192,8 @@ nav a {
                 background: white;
 }
 .hobbies:hover{
-    box-shadow: 0 0 15px hotpink,
-                0 0 25px hotpink,
+    box-shadow: 0 0 15px blue,
+                0 0 25px blue,
                 0 0 40px blue;
     transform: scale(1.04);
     background: hotpink;
