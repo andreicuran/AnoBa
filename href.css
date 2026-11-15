@@ -1,0 +1,36 @@
+body{
+  background-color:black;
+}
+
+nav a{
+  text-decoration:none;
+    font-size: 60px;
+    padding: 15px 25px;
+    border-radius: 20px;
+}
+
+
+.menu{
+  color: red;
+}
+.contact{
+color: blue;
+}
+.location{
+color: hotpink;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,243 @@
+
+body {
+    background-color: blue;
+    min-height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url("af5de36f-c644-4167-bebf-11c72953e7f6.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+img{
+    
+}
+nav{
+    list-style-type: none;
+}
+
+nav ul{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+nav a {
+    font-size: 50px;
+    padding: 15px 30px;
+    background-color: hotpink;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.profile{
+    width: 95%;
+    height: 950px;
+   border-radius: 40px;
+   gap: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: center;
+   margin-top: 500px;
+   
+   
+}
+
+
+.pics{
+    background-color: black;
+    width: 80%;
+    padding: 5% 5%;
+    border-radius: 60px;
+    box-shadow: 0 0 50px white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.profile img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 150px;
+   box-shadow: 0 0 50px hotpink;
+   border: 3px solid hotpink;
+   transition: 0.3s ease;
+}
+.profile img:hover {
+    content: url("20261023_143340_035850.jpg");
+    transform: scale(1.05);
+} 
+.pics h1{
+    color: blue;
+    font-size: 30px;
+    margin-top: 35px;
+    transition: 0.3s;
+}
+.pics h1:hover{
+    color: hotpink;
+    letter-spacing: 3px;
+    text-shadow: 0 0 15px hotpink;
+}
+.profile p {
+    color: blue;
+    font-size: 25px;
+    margin: 35px;
+}
+.about{
+   background-color: blue;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 600px;
+    min-height: 100px;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+.about h1 {
+    color: #000;
+    font-size: 30px;
+    position: relative;
+    top: -15px;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+.about p{
+    color: white;
+    line-height: 1.4;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -10px;
+    
+}
+.about:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 15px hotpink,
+                0 0 25px hotpink,
+                0 0 40px blue;
+    background: hotpink;
+}
+.about:hover h1 {
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 0 0 15px hotpink;
+}
+
+.hobbies h1{
+    color: #000;
+    line-height: 1.8;
+    margin: 5px 0;
+
+}
+.hobbies {
+    background-color: blue;
+    border-radius: 30px;
+    padding: 20px ;
+    margin: 50px auto;
+    width: 85%;
+   max-width: 600px;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 15px;
+    box-sizing: border-box;
+  //  flex-wrap: wrap;
+  min-height: 120px;
+  //box-shadow: 0 0 50px hotpink;
+  
+}
+
+.hobbies span {
+    background-color: hotpink;
+    color: black;
+    padding: 12px 22px;
+    border-radius: 15px;
+    max-width: 750px;
+    font-size: 20px;
+    gap: 15px;
+    width: 40%;
+    min-height: 130px;
+}
+.hobbies h1:hover {
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 0 0 15px hotpink;
+}
+.hobbies span:hover {
+   // background-color: white;
+    color: white;
+    transform: translateY(-8px) scale(1.1);
+    box-shadow: 0 0 15px hotpink,
+                0 0 25px hotpink;
+                background: blue;
+}
+.hobbies:hover{
+    box-shadow: 0 0 15px hotpink,
+                0 0 25px hotpink,
+                0 0 40px blue;
+    transform: scale(1.04);
+    background: hotpink;
+}
+
+.social {
+    position: static;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social a {
+    display: inline-block;
+    font-size: 45px;
+    color: blue;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: hotpink;
+    transform: scale(1.2);
+}
+.fa-instagram{
+    color: #E1306C;
+}
+.fa-tiktok{
+    color: white;
+}
+.fa-spotify{
+    color: #1DB954;
+}
+@media screen and (max-width: 600px) {
+
+    .about,
+    .hobbies {
+        width: 90%;
+        padding: 18px;
+    }
+
+    .about p {
+        
+        font-size: 16px;
+        line-height: 1.5;
+        top: 0;
+    }
+
+    .hobbies span {
+        font-size: 18px;
+        padding: 1px 1px;
+    }
+}
